@@ -5,12 +5,13 @@ Laravel 7
   
 installation:  
   
-Создайте свой ENV файл  
-establish a database connection in the .env file  
+Создайте свой ENV файл или заполните .env.example переименовав его в .ENV    
+  
 DB_DATABASE= `your name`  
 DB_USERNAME= `your login`  
 DB_PASSWORD= `your password`  
-  
+
+затем выполните в консоли. Для успешного заполнения базы данных необходим composer на вашем сервере  
 launch the command line:  
 `php artisan migrate`  
    
